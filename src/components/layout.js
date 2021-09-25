@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Link, useStaticQuery, graphql } from 'gatsby';
+import { Link } from 'gatsby';
 import { container, internalContainer, heading, navLinks, navLinkItem, navLinkText, siteTitle } from './layout.module.css';
 import { DesignLine } from './design-line/design-line';
 
