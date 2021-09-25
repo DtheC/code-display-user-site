@@ -7,7 +7,6 @@ import { MDXRenderer } from 'gatsby-plugin-mdx';
 
 const SketchWrapper = ({sketch, markup}) => {
   const sketchRef = useRef()
-  console.log(markup);
   useEffect(() => {
     new p5(sketch, sketchRef.current)
   }, [])

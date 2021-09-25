@@ -6,7 +6,6 @@ import {sketchGrid} from './index.module.css';
 import { getImage } from 'gatsby-plugin-image';
 
 const SketchPage = ({ data }) => {
-  console.log(data);
   return (
     <Layout pageTitle="Code Display User">
       <div className={sketchGrid}>
